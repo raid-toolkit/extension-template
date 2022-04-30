@@ -31,7 +31,7 @@ jobs:
 
       # Restore the application to populate the obj folder with RuntimeIdentifiers
       - name: Build the application
-        run: msbuild /p:Configuration=Release
+        run: msbuild TemplateVSIX\TemplateVSIX.sln /p:Configuration=Release
 
         # Create releases
       - name: Create Release
