@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <AssemblyName>$safeprojectname$</AssemblyName>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Raid.Toolkit.Extensibility" Version="1.9.74-alpha" />
+    <PackageReference Include="Raid.Toolkit.Extensibility.Tasks" Version="1.9.74-alpha">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <RTKExtensionManifest Include="manifest.json" />
+  </ItemGroup>
+
+</Project>
