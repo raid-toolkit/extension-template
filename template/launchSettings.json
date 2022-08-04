@@ -3,8 +3,11 @@
         "Debug Package": {
             "commandName": "Executable",
             "executablePath": "%userprofile%\\AppData\\Local\\RaidToolkit\\Raid.Toolkit.exe",
-            "commandLineArgs": "--standalone --no-default-packages --debug-package $(ProjectDir)$(OutDir)",
-            "workingDirectory": "%userprofile%\\AppData\\Local\\RaidToolkit"
+            "commandLineArgs": "--standalone --no-default-packages --debug-package .",
+            "workingDirectory": "%userprofile%\\AppData\\Local\\RaidToolkit",
+            "environmentVariables": {
+                "DEBUG_PACKAGE_DIR": "$(ProjectDir)$(OutDir)"
+            }
         }
     }
 }

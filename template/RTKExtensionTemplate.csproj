@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Raid.Toolkit.Extensibility" Version="1.9.74-alpha" />
-    <PackageReference Include="Raid.Toolkit.Extensibility.Tasks" Version="1.9.74-alpha">
+    <PackageReference Include="Raid.Toolkit.Extensibility" Version="2.0.44-alpha" />
+    <PackageReference Include="Raid.Toolkit.Extensibility.Tasks" Version="2.0.44-alpha">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
