@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <AssemblyName>$safeprojectname$</AssemblyName>
     <RootNamespace>$safeprojectname$</RootNamespace>
     <Platforms>x64</Platforms>
@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Raid.Toolkit.Extensibility" Version="2.0.44-alpha" />
-    <PackageReference Include="Raid.Toolkit.Extensibility.Tasks" Version="2.0.44-alpha">
+    <PackageReference Include="Raid.Toolkit.Extensibility" Version="2.0.0-g5424e830ad" />
+    <PackageReference Include="Raid.Toolkit.Extensibility.Tasks" Version="2.0.0-g5424e830ad">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
