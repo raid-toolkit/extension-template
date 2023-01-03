@@ -5,7 +5,12 @@
     <TargetPlatformMinVersion>10.0.18362.0</TargetPlatformMinVersion>
     <AssemblyName>$safeprojectname$</AssemblyName>
     <RootNamespace>$safeprojectname$</RootNamespace>
+    <Platform>x64</Platform>
     <Platforms>x64</Platforms>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+    <!-- https://github.com/dotnet/maui/issues/5886#issuecomment-1123106200 -->
+    <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
     <InstallRTKExtensionAfterBuild>false</InstallRTKExtensionAfterBuild>
   </PropertyGroup>
 
